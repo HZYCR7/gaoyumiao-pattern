@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高羽苗 · 版师作品集 | Pattern Portfolio</title>
+<style>
+  :root{
+    --paper:#EEECE3; --ink:#2b2b28; --moss:#89937B;
+    --blue:#424743; --clay:#9aa79a; --line:#d8d5c8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    font-family:"Songti SC","Noto Serif SC",Georgia,serif;
+    background:var(--paper); color:var(--ink);
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    padding:24px;
+  }
+  .card{
+    max-width:640px; width:100%; text-align:center;
+    border:1px solid var(--line); padding:64px 40px;
+    background:linear-gradient(180deg,#f4f2ea 0%,var(--paper) 100%);
+  }
+  .season{
+    font-size:12px; letter-spacing:.4em; color:var(--moss);
+    text-transform:uppercase; margin-bottom:28px;
+  }
+  h1{
+    font-size:40px; font-weight:600; letter-spacing:.12em; margin-bottom:14px;
+  }
+  .en{
+    font-size:15px; letter-spacing:.28em; color:var(--ink);
+    text-transform:uppercase; margin-bottom:10px;
+  }
+  .sub{
+    font-size:14px; color:#6f6f68; line-height:2; margin-bottom:8px;
+  }
+  .dotline{
+    width:48px; height:1px; background:var(--moss);
+    margin:34px auto;
+  }
+  .desc{
+    font-size:14px; color:#6f6f68; line-height:2.1; margin-bottom:32px;
+  }
+  .tags{
+    display:flex; flex-wrap:wrap; justify-content:center; gap:12px;
+    margin-bottom:44px;
+  }
+  .tags span{
+    font-size:12px; letter-spacing:.2em; color:var(--ink);
+    border:1px solid var(--line); padding:7px 18px;
+  }
+  .btn{
+    display:inline-block; padding:14px 52px;
+    border:1px solid var(--ink); color:var(--ink);
+    text-decoration:none; font-size:14px; letter-spacing:.3em;
+    transition:all .3s ease;
+  }
+  .btn:hover{
+    background:var(--ink); color:var(--paper);
+  }
+  .foot{
+    margin-top:44px; font-size:11px; color:#9a978c; letter-spacing:.15em;
+  }
+  .swatches{
+    display:flex; justify-content:center; gap:10px; margin-top:26px;
+  }
+  .swatches span{
+    width:14px; height:14px; border-radius:50%; display:block;
+  }
+</style>
+<base target="_blank">
+</head>
+<body>
+  <div class="card">
+    <div class="season">Pattern Making · 求职意向：定向培训生（制版师）</div>
+    <h1>高羽苗</h1>
+    <div class="en">Pattern Portfolio</div>
+    <div class="sub">版师助理作品集<br>北京服装学院 服装设计硕士 · 2027届</div>
+    <div class="dotline"></div>
+    <p class="desc">从概念设计到样衣落地的完整开发流程——<br>纸样调整、放码与立体裁剪的协同经验。</p>
+    <div class="tags">
+      <span>01 基础纸样</span>
+      <span>02 经典西服 / 衬衫纸样</span>
+      <span>03 创意纸样</span>
+      <span>04 立体裁剪</span>
+    </div>
+    <a class="btn" href="pattern-portfolio-gaoyumiao.pdf" target="_blank">查看作品集</a>
+    <div class="swatches">
+      <span style="background:#EEECE3;border:1px solid var(--line)"></span>
+      <span style="background:#424743"></span>
+      <span style="background:#89937B"></span>
+      <span style="background:#9aa79a"></span>
+    </div>
+    <div class="foot">让结构成为设计的骨骼</div>
+  </div>
+</body>
+</html>
